@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.grid {
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #e4e4e4;
+    /* 10 x 10 grid at 40px each + border 4px*/
+    height: 480px;  
+    width: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.grid div {
+    height: 40px;
+    width: 40px;
+    border-left: #ffffec solid 4px;
+    border-top: #ffffec solid 4px;
+    border-bottom: #707070 solid 4px;
+    border-right: #707070 solid 4px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.bomb {
+    /* background-image: url('./images/bomb.png'); */
+    background-size: cover;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.flag {
+    /* background-image: url('./images/flag.jpg'); */
+    background-size: cover;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.checked {
+    background-color: #acacac;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+}
+
+.grid .checked {
+    background-color: #acacac;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    border-left: #6d6d6d solid 4px;
+    border-top: #6d6d6d solid 4px;
+    border-bottom: #6d6d6d solid 4px;
+    border-right: #6d6d6d solid 4px;
+}
+
+.one {
+    color: #e76346;
+}
+
+.two {
+    color: #1679bb;
+}
+
+.three {
+    color: #0f7710;
+}
+
+.four{
+    color: #bb41d3;
+}
+
+.five {
+    color: #5c0404;
+}
+
+.six {
+    color: #ff2f00;
+}
+
+.seven {
+    color: #04263d;
+}
+
+.eight {
+    color: #000000
+}
